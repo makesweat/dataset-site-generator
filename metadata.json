@@ -14,7 +14,7 @@
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "Makesweat.com",
   "attribution-url": "https://makesweat.github.io/",
-  "mailchimp": "",
+  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us14.list-manage.com\",\"uuid\":\"774dcc91485ef29deac85cf8f\",\"lid\":\"17a09b5201\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
   "publish": true
