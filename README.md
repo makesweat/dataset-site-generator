@@ -1,11 +1,13 @@
-# Makesweat Sessions Open Data
+# Dataset Site Generator [![Build Status](https://travis-ci.org/openactive/dataset-site-generator.svg?branch=master)](https://travis-ci.org/openactive/dataset-site-generator)
 
-## Open Data Endpoint
-https://makesweat.com/service/openactive.php - a feed of session data from Makesweat clients
+## Getting Started
 
-## Standards
-- The data feed is published to conform to [OpenActive Realtime Paged Data Exchange 0.2.3](https://www.openactive.io/realtime-paged-data-exchange/0.2.3/) and [OpenActive Modelling Opportunity Data](https://www.openactive.io/modelling-opportunity-data/), using features from the [OpenActive Beta Namespace](https://www.openactive.io/ns-beta/).
+This site originated from the OpenActive Dataset Site Generator. For more information see the [Dataset Site Generator Wiki](https://github.com/openactive/dataset-site-generator/wiki/).
 
-## Issues, Questions and Comments
-Please raise any issues, questions, comments and any feedback as a [new issue in this repository](https://github.com/makesweat/makesweat.github.io/).
+## Developers Notes
 
+Please read [the developers guide](https://github.com/openactive/dataset-site-generator/wiki/Developer-Notes-for-Data-Publishers) before making changes to this repository.
+
+## License and Attribution
+
+This Dataset Site Generator is licensed under the Creative Commons Attribution Licence (CC-BY v4.0) for anyone to access, use and share; using attribution via the OpenActive logo and link at the bottom of the generated page.
