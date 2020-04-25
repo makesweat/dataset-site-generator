@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "All Makesweat sessions",
-      "id": "https://makesweat.github.io/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "https://makesweat.github.io/",
       "url": "https://makesweat.github.io/",
-      "description" : "Session data from makesweat.com; published using OpenActive RPDE v0.2.3.",
+      "name": "All Makesweat sessions",
+      "description": "Session data from makesweat.com; published using OpenActive RPDE v0.2.3.",
       "keywords":[
-         "",
-         "",
-         "OpenActive"
+          "",
+          "",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=0.2.3",
-        "contentUrl" : "https://makesweat.com/service/openactive.php"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "https://makesweat.com/service/openactive.php"
+        }
+      ],
+      "discussionUrl": "https://github.com/makesweat/opendata//issues",
+      "documentation": "https://github.com/makesweat/opendata/",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "Makesweat",
-         "url": "https://makesweat.com",
-         "logo": "https://makesweat.github.io/images/logo.png"
+        "@type": "Organization",
+        "name": "Makesweat",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://makesweat.github.io/images/logo.png"
+        },
+        "url": "https://makesweat.com"
       },
-      "datePublished" : "2014-07-20T00:00:00.000Z"
+      "datePublished": "2014-07-20T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "https://makesweat.github.io/images/bg.jpg"
+      }
     }
     </script>
   </head>
